@@ -20,7 +20,8 @@ jobs:
           npm install
       - name: Run test
         run: |
-          npm test-ci
+          npm ci
+          npm run redeploy
       - name: Cache Gradle Wrapper
         uses: actions/cache@v2
         with:
