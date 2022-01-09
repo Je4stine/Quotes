@@ -72,7 +72,11 @@ const Homepage = () => {
                 New Quote</Text>   
                 </TouchableOpacity>
 
-            <View style={{flexDirection:'row', justifyContent:'space-between', marginRight:30, marginLeft:20,marginTop:20}}>
+            <View style={{flexDirection:'row',
+             justifyContent:'space-between', 
+             marginRight:30, 
+             marginLeft:20,
+             marginTop:20}}>
                 <View style={{height:50, width: 50, borderColor:'#87CEEB', borderWidth:1.5, borderRadius:25, alignSelf:'center'}}>
                      <TouchableOpacity >
                         <FontAwesome name="volume-up" size={28} color="#87CEEB" style={{marginTop:10, marginLeft:10}}/>

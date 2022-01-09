@@ -5,7 +5,25 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "splash": {
+      "image": "./assets/Splash.png",
+      "backgroundColor": "#21EC5A",
+      "resizeMode": "cover"
+    },
+    "description": "This app produces quotes from famous people At random times.",
+    "android": {
+      "package": "com.aceem.quotes"
+    }
   },
-  "name": "Quotes"
+  "icon": "./assets/Full.png",
+  "name": "Quotes",
+  "android": {
+    "package": "com.aceem.quotes",
+    "versionCode": 1,
+    "adaptiveIcon": {
+      "backgroundColor": "white",
+      "icon": "./assets/Full.png"
+    }
+  }
 }
